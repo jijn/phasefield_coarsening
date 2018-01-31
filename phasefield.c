@@ -87,7 +87,7 @@ int main(int argc, char **argv){
     const double sigma = 2.0;
     const double gamma = 1.5;
     /* mesh */
-    const double dx = 1.440000000000000e-06;
+    const double dx = 1;
     const double h2 = 1.0/(dx*dx);    /* 1/(dx)^2 */
     const double dt = 0.125*dx*dx/DL; /* to make the iteration stable */
     /* phase-field parameters */
